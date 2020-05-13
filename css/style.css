@@ -480,6 +480,17 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
+  .container-about-us-img{
+    position: relative;
+    }
+
+    .about-us-law-img{
+    position: absolute;
+      height: 700px;
+      width: 830px;
+      margin-top: 20px;
+    }
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7841,8 +7852,7 @@ textarea.form-control {
   padding: 15px; }
   @media (min-width: 768px) {
     .ftco-section-2 .section-2-blocks-wrapper .text {
-      padding: 10% 7%;
-      background: rgba(0, 0, 0, 0.02); } }
+      padding: 10% 7%;}
   .ftco-section-2 .section-2-blocks-wrapper .text h3 {
     margin-bottom: 50px; }
 

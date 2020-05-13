@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5,
 		top: 0;
 		position: relative;
 	}
-	
+
 	.navbar-nav {
 		> .nav-item {
 			> .nav-link {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5,
 				}
 			}
 
-			
+
 			&.ftco-seperator {
 				position: relative;
 				margin-left: 20px;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5,
 		font-size: 16px;
 		letter-spacing: .1em;
 	}
-	
+
 	&.scrolled  {
 		position: fixed;
 		right: 0;
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5,
 			transition: .3s all ease-out;
 		}
 		&.sleep {
-			transition: .3s all ease-out;	
+			transition: .3s all ease-out;
 		}
 
 		.navbar-brand {
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5,
 			content: "";
 			background: rgba($black,.3);
 			position: absolute;
-			top: 0; 
+			top: 0;
 			left: 0;
 			bottom: 0;
 			right: 0;
@@ -405,7 +405,7 @@ textarea.form-control {
 				border: 2px solid $black;
 			}
 		}
-		
+
 	}
 }
 
@@ -434,7 +434,7 @@ textarea.form-control {
 #section-about {
 	padding: 8em 0;
 	.img {
-		position: absolute; 
+		position: absolute;
 		right: 0;
 		@include media-breakpoint-down(md) {
 			position: relative;
@@ -651,7 +651,7 @@ textarea.form-control {
 		opacity: 0;
 		visibility: hidden;
 		transition: .3s all ease;
-		.owl-prev, 
+		.owl-prev,
 		.owl-next {
 			position: absolute;
 			font-size: 30px;
@@ -710,6 +710,7 @@ textarea.form-control {
 	padding-left: 0;
 	padding-right: 0;
 }
+
 .ftco-section-2 {
 	.section-2-blocks-wrapper {
 		.button {
@@ -851,7 +852,7 @@ textarea.form-control {
 	height: 300px;
 	display: block;
 }
-		
+
 // magnific pop up
 
 .image-popup {
@@ -863,9 +864,9 @@ textarea.form-control {
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  -webkit-transition: all 0.3s ease-out; 
-  -moz-transition: all 0.3s ease-out; 
-  -o-transition: all 0.3s ease-out; 
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
@@ -876,7 +877,7 @@ textarea.form-control {
     opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-container,
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
@@ -901,7 +902,7 @@ textarea.form-control {
 	}
 }
 
-//blocks 
+//blocks
 .block-20 {
 	overflow: hidden;
 	background-size: cover;
@@ -977,9 +978,9 @@ textarea.form-control {
 			font-size: 16px;
 		}
 	}
-} 
+}
 
-//### .block-18 
+//### .block-18
 .block-18 {
 	.icon, .text {
 	}
@@ -998,7 +999,7 @@ textarea.form-control {
 	}
 }
 
-//### .block-10 
+//### .block-10
 .block-10 {
 	margin-bottom: 30px;
 	.person-info {
@@ -1074,7 +1075,7 @@ textarea.form-control {
 		display: block;
 		sup {
 			font-size: 20px;
-			top: -2em; 
+			top: -2em;
 		}
 		.number {
 			font-size: 80px;
@@ -1140,14 +1141,14 @@ textarea.form-control {
 				&[aria-expanded="false"] {
 					&:before {
 						content: "\e313";
-						color: #ccc;	
+						color: #ccc;
 						font-family: 'icomoon';
 						position: absolute;
-				
+
 						transition: .3s all ease;
 					}
 				}
-				
+
 			}
 		}
 		.body-text {
@@ -1165,7 +1166,7 @@ textarea.form-control {
 			padding-bottom: 2em;
 		}
 		.owl-item {
-			box-shadow: 0 7px 20px -5px rgba(0,0,0,.2);	
+			box-shadow: 0 7px 20px -5px rgba(0,0,0,.2);
 		}
 		.owl-nav {
 			z-index: 2;
@@ -1209,7 +1210,7 @@ textarea.form-control {
 				margin-bottom: 10px;
 				transition: .3s all ease;
 				&.active {
-					
+
 					background: $primary;
 				}
 			}
@@ -1255,7 +1256,7 @@ textarea.form-control {
 		padding: 10% 7%;
 		@include media-breakpoint-up(md) {
 			width: 50%;
-			padding: 10% 7%;	
+			padding: 10% 7%;
 		}
 	}
 	.text {
@@ -1324,7 +1325,7 @@ textarea.form-control {
 				&:hover, &:focus {
 					color: $white;
 				}
-			}	
+			}
 		}
 	}
 	.prev {
@@ -1452,9 +1453,9 @@ textarea.form-control {
 	padding: 25px;
 	font-size: 15px;
 	width: 100%;
-	
+
 	float: left;
-	
+
 	background: $white;
 	*:last-child {
 		margin-bottom: 0;
@@ -1507,7 +1508,7 @@ textarea.form-control {
 	background-color: rgba(255,255,255,0.9);
 	box-shadow: 0px 24px 64px rgba(0,0,0,0.24);
 	border-radius:16px;
-	opacity: 0; 
+	opacity: 0;
 	visibility: hidden;
 	transition: opacity .2s ease-out, visibility 0s linear .2s;
 	z-index:1000;
